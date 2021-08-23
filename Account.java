@@ -1,7 +1,8 @@
 package ver2;
 
 public class Account {
-	private double balance;
+	private double balance;//New Comment for balance
+
 	private String name;
 	public Account(double balance) {
 		this("Unknown", balance);
